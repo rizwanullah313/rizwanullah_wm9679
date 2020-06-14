@@ -205,6 +205,237 @@ document.write("The area is: "+t2);
 // ******************************************************************************************************* //
 // ******************************************************************************************************* //
 
+// chapter 9-11 task 1
+/*var c = prompt("Enter Your City Name:");
+if(c=="karachi")
+{	
+         document.write("Welcome To the city of lights");
+}
+else if(c=="peshawar")
+{	
+         document.write("Welcome to the city of flowers");
+}
+else if(c=="lahore")
+{	
+         document.write("welcome to the heart of pakistan");
+}
+
+*/
+
+
+
+
+// Chapter 9-11 task 2
+/*var gender = prompt("Entre Gender: ");
+if(gender=="male")
+{
+	document.write(" Good Morning Sir");
+}
+else if (gender=="female")
+{
+	document.write(" Good Morning Ma’am");
+}
+*/
+
+
+
+
+// Chapter 9-11 task 3
+/*var sc =prompt("Enter bColor: ");
+if(sc=="red")
+{
+	document.write("Must Stop");
+}
+else if(sc=="yellow")
+{
+	document.write("Ready To Move");
+}
+else if(sc=="green")
+{
+	document.write("Move Now");
+}
+*/
+
+
+
+
+// Chapter 9-11 task 5
+/*var a = 4; 
+if (++a === 5)
+{ 
+alert("given condition for variable a is true"); 
+}  
+var b = 82; 
+if (b++ === 83)
+{ 
+alert("given condition for variable b is true"); 
+} 
+var c = 12; 
+if (c++ === 13)
+{ 
+alert("condition 1 is true"); 
+} 
+if (c === 13)
+{ 
+alert("condition 2 is true"); 
+} 
+if (++c < 14)
+{ 
+alert("condition 3 is true"); 
+} 
+if(c === 14)
+{ 
+alert("condition 4 is true"); 
+} 
+ 
+var materialCost = 20000; 
+var laborCost = 2000;
+var totalCost = materialCost + laborCost; 
+if (totalCost === laborCost + materialCost)
+{ 
+alert("The cost equals"); 
+} 
+if (true)
+{ 
+alert("True");
+} 
+if (false)
+{ 
+alert("False"); 
+} 
+if("car" < "cat")
+{ 
+alert("car is smaller than cat"); 
+} 
+*/
+
+
+
+
+// Chapter 9-11 task 6
+/*var a1 = parseFloat(prompt("Enter First Subject Marks: "));
+var a2 = parseFloat(prompt("Enter Second Subject Marks: "));
+var a3 = parseFloat(prompt("Enter Third Subject Marks: "));
+
+var t1 = a1+a2+a3;
+var s = 300;
+var t2  = t1/s;
+var t = t2*100;
+if(t>=80 && t<=100)
+{
+	document.write("Mark Sheet");
+	document.write('<br>');
+	document.write('<br>');
+	document.write("Total Marks: "+s);
+	document.write('<br>');
+	document.write("Obtained MArks: "+t1);
+	document.write('<br>');
+	document.write("Percentage: "+t+"%");	
+	document.write('<br>');
+	document.write("Grade A-one");	
+	document.write('<br>');
+	document.write("Remarks: Excellent");
+}
+else if(t>=70 && t<=80)
+{
+	document.write("Mark Sheet");
+	document.write('<br>');
+	document.write('<br>');
+	document.write("Total Marks: "+s);	
+	document.write('<br>');
+	document.write("Obtained MArks: "+t1);	
+	document.write('<br>');
+	document.write("Percentage: "+t+"%");	
+	document.write('<br>');
+	document.write("Grade A");	
+	document.write('<br>');
+	document.write("Remarks: Good");
+}
+else if(t>=600 && t<=70)
+{
+	document.write("Mark Sheet");
+	document.write('<br>');
+	document.write('<br>');
+	document.write("Total Marks: "+s);	
+	document.write('<br>');
+	document.write("Obtained MArks: "+t1);	
+	document.write('<br>');
+	document.write("Percentage: "+t+"%");	
+	document.write('<br>');
+	document.write("Grade B");	
+	document.write('<br>');
+	document.write("Remarks: You need to improve");
+}
+else if(t<60)
+{
+	document.write("Mark Sheet");
+	document.write('<br>');
+	document.write('<br>');
+	document.write("Total Marks: "+s);	
+	document.write('<br>');
+	document.write("Obtained MArks: "+t1);	
+	document.write('<br>');
+	document.write("Percentage: "+t+"%");	
+	document.write('<br>');
+	document.write("Fail");	
+	document.write('<br>');
+	document.write("Remarks: Sorry");
+}*/
+
+
+
+// Chapter 9-11 task 8
+/*var inp = parseFloat(prompt("Enter any integer to check it is divisible by 3 or not: "));
+if(inp%3==0)
+{
+	document.write("Yes it is divisible by 3");
+}
+else if(inp%3!=0)
+{
+	document.write("Sorry not divisible by 3");
+}*/
+
+
+
+// Chapter 9-11 task 9
+/*var inp = parseFloat(prompt("Enter any integer: "));
+if(inp%2==0)
+{
+	document.write(inp+" is Even Number");
+}
+else
+{
+	document.write(inp+" is Odd Number");
+}*/
+
+
+
+//  Chapter 9-11 task 10
+/*var t = parseFloat(prompt("Enter Temperature: "));
+if(t>40)
+{
+	document.write("It is too hot outside");
+}
+else if(t>30)
+{
+	document.write("The Weather today is Normal");
+}
+else if(t>20)
+{
+	document.write("Today’s Weather is cool");
+}
+else if(t>10)
+{
+	document.write("OMG! Today’s weather is so Cool");
+}*/
+
+
+
+
+
+// ******************************************************************************************************* //
+// ******************************************************************************************************* //
+
 /*chapter 12-13 task 2
     var a = parseFloat(prompt("Enter First Number"));
 	var b = parseFloat(prompt("Enter Second Number"));
